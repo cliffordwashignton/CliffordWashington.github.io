@@ -1,0 +1,64 @@
+/* Styles for body */
+.body-class {
+    background-color: #f0f0f0; /* Subtle background color */
+}
+
+/* Styles for header */
+.header-class {
+    background-color: #333; /* Contrasting background color */
+    color: #fff; /* Font color for better visibility */
+}
+
+/* Styles for navigation bar */
+.nav-class {
+    background-color: #444; /* Different background color */
+    color: #eee; /* Font color */
+}
+
+.nav-class .nav-link-class {
+    font-weight: normal;
+}
+
+.nav-class .nav-link-class.active {
+    font-weight: bold; /* Make active link bold */
+}
+
+/* Styles for titles */
+.title-class, .section-title-class {
+    color: #0056b3; /* Distinct colors for heading classes */
+}
+
+/* Styles for text */
+.text-class {
+    color: #333; /* Font color contrasting with background */
+}
+
+/* Styles for images */
+.image-class {
+    border: 2px solid #007bff; /* Border with a complementary color */
+}
+
+/* Styles for forms and buttons */
+.form-class {
+    color: #555;
+    background-color: #f8f8f8;
+}
+
+.button-class {
+    background-color: #28a745; /* Cohesive color for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Styles for footer */
+.footer-class {
+    background-color: #222; /* Distinct background */
+    color: #ddd; /* Font color */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* Styles for smaller screens */
+}
